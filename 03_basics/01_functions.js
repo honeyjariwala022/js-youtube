@@ -79,4 +79,3 @@ function returnSecondValue(getArray){
 }
 // console.log(returnSecondValue(myNewArry));
 console.log(returnSecondValue([200,400,500,1000]));
-
