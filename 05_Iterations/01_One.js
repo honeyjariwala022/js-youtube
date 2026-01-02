@@ -33,13 +33,13 @@ for (let index = 0; index < array.length; index++) {
 
 // Break And Continue//
 
-// for (let index = 1; index <= 20; index++) {
-//     if (index == 5){
-//         console.log(`Detected 5`);
-//         break
-//     }
-//     console.log(`Value Of I Is ${index}`);
-// }
+for (let index = 1; index <= 20; index++) {
+    if (index == 5){
+        console.log(`Detected 5`);
+        
+    }
+    console.log(`Value Of I Is ${index}`);
+}
 
 for (let index = 1; index <= 20; index++) {
     if (index == 5){
