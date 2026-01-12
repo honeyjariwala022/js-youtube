@@ -74,3 +74,16 @@ else {
 });
 
 ```
+
+##project 3 solution
+```javascript
+  ##project 2 solution
+    const clock=document.getElementById('clock')
+// const clock=document.querySelector('clock')
+
+setInterval(function(){
+let date = new Date()
+// console.log(date.toLocaleTimeString());
+clock.innerHTML =date.toLocaleString();
+},1000)
+```
