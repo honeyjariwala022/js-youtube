@@ -36,5 +36,4 @@ buttons.forEach(function (button) {
   });
 });
 
-
 ```
