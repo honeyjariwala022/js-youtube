@@ -16,21 +16,22 @@
 // },1000)    
 let intervalId = null;
 
-    function sayDate() {
-        console.log("Honey", Date.now());
-    }
-
-    document.getElementById("start").addEventListener("click", function () {
-        if (intervalId === null) {
-            intervalId = setInterval(sayDate, 1000);
+        function sayDate() {
+            console.log("Honey", Date.now());
         }
-    });
 
-    document.getElementById("stop").addEventListener("click", function () {
-        clearInterval(intervalId);
-        intervalId = null;
-    });
+        document.getElementById("start").addEventListener("click", function () {
+            if (intervalId === null) {
+                intervalId = setInterval(sayDate, 1000);
+                console.log("Started");
+            }
+        });
 
+        document.getElementById("stop").addEventListener("click", function () {
+            clearInterval(intervalId);
+            intervalId = null;
+            console.log("Stopped");
+        });
 // const sayDate = function(str){
 //     console.log(str, Date.now());
 // }
